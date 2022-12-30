@@ -1,0 +1,64 @@
+ul{
+  background: black;
+  padding:0;
+  margin: 0;
+}
+
+li{
+  display: inline-block;
+  width: 50px;
+  padding: 10px;
+}
+
+li a {
+  color: white;
+  text-decoration: none;
+}
+.card{
+  margin: 0 auto;
+  padding: 10px;
+  text-align: center;
+  background-image: linear-gradient(to right, #A1C4FD,#87D4F6,#C2E9FB);
+}
+
+.slider{
+  text-align: center;
+  padding: 0;
+  border-bottom: 2px solid black;
+  margin:0;
+}
+
+.slider-img{
+  width: 100%;
+  text-align: center;
+
+
+}
+
+.border{
+ border-top: 2px solid black;
+}
+
+.image{
+  width:200px;
+  float: left;
+  padding: 20px;
+}
+
+.p-text{
+  column-count: 4;
+  text-align: justify;
+  column-rule: 2px solid black;
+  column-gap: 30px;
+}
+
+.footer{
+  background: black;
+  color: white;
+  text-align: center;
+  height: 40px;
+}
+
+.footer h2 {
+  font-size: 16px;
+}

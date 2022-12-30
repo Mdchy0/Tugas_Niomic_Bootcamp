@@ -1,0 +1,25 @@
+body {
+  margin: 30px auto;
+  background-color: #333333;
+  justify-content: center;
+}
+
+.container {
+  width: 400px;
+}
+label{
+  color: white;
+}
+form{
+  margin-top: 20px;
+}
+input[type=file] {
+  color: white;
+}
+strong{
+  color: blue;
+}
+div.cb{
+  display: flex;
+  margin-top: 5px;
+}

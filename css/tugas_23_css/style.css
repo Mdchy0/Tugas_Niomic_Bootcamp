@@ -1,0 +1,17 @@
+.container-fluid{
+  padding-top: 15px;
+}
+table {
+  border-collapse: collapse;
+}
+table.tb{
+  border-collapse: separate;
+  border-spacing: 0 15px;
+}
+
+th, td {
+  width: 150px;
+  text-align: center;
+  border: hidden;
+  padding: 5px
+}

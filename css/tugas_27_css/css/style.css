@@ -1,0 +1,41 @@
+.col-12{
+    background-color: #2EA3F2;
+    height: 120px;
+    padding: 10px;
+    margin-top: 40px;
+}
+
+.col-10{
+    background-color: #008000;
+    height: 100px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.col-8{
+    background-color: #0000FE;
+    height: 80px;
+    border: 1px solid white;
+    padding: 10px;
+}
+
+.col-6{
+    background-color: #FF0000;
+    height: 60px;
+    border: 1px solid white;
+    padding: 10px;
+}
+      
+.col-4{
+    background-color: #FFFF00;
+    height: 40px;
+    border: 1px solid white;
+    padding: 10px; 
+}
+
+.box{
+    background-color: #800080;
+    height: 20px;
+    width: 20px;
+    border: 1px solid white;
+}

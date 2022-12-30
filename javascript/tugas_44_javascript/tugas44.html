@@ -1,0 +1,21 @@
+<!doctype html>
+<html lang="en" dir="ltr"> 
+ <head> 
+  <meta charset="utf-8"> 
+  <title></title> 
+ </head> 
+ <body> 
+  <h1>Tugas 44</h1> 
+  <p>Jangan Rubah Yang Ini</p> 
+  <p>Rubah Yang Ini</p> <button type="button" name="button" onclick="myFunction()"> Rubah Warna </button> 
+  <script type="text/javascript">
+      function myFunction() {
+        var a, i;
+        a = document.getElementsByTagName("P");
+        for (var i = 0; i < a.length; i++) {
+          a.item(1).style.color = "blue";
+        }
+      }
+    </script> 
+ 
+</body></html>

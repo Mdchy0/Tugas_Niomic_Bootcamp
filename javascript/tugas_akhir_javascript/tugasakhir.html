@@ -1,0 +1,130 @@
+<!doctype >>
+<html>
+ <head> 
+  <title>TUGAS AKHIR</title> 
+  <link rel="stylesheet" type="text/css" href="style.css"> 
+ <style type="text/css" id="dcoder_stylesheet">body {
+  font-family: sans-serif;
+  background: #c0c0c0;
+}
+
+h1 {
+  text-align: center;
+  font-weight: 300;
+}
+
+.tulisan_login {
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.kotak_login {
+  width: 350px;
+  background: white;
+
+  margin: 80px auto;
+  padding: 30px 20px;
+}
+
+label {
+  font-size: 11pt;
+}
+
+.form_login {
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+  font-size: 11pt;
+  margin-bottom: 20px;
+}
+
+.tombol_login {
+  background: #ff7f00;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+.tombol_lanjut {
+  background: red;
+  color: white;
+  font-size: 11pt;
+  width: 100%;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+}
+.link {
+  color: #232323;
+  text-decoration: none;
+  font-size: 10pt;
+}</style></head> 
+ <body> 
+  <h1> Membuat Desain Form Register Dengan Javascript <br> NIOMIC </h1> 
+  <div class="kotak_login"> <button id="X" onclick="buat_login()" class="tombol_lanjut"> Klik Disini Untuk Mendaftar </button> 
+  </div> 
+  <script type="text/javascript" src="form.js"></script> 
+ 
+<script type="text/javascript" id="dcoder_script">function buat_login() {
+  var elem = document.getElementById("X");
+  elem.parentElement.removeChild(elem);
+  var p = document.createElement("h1");
+  p.className = "tulisan_login";
+  p.innerHTML = "Silahkan Mendaftar";
+  var element = document.getElementsByTagName("DIV")[0];
+  element.appendChild(p);
+  var form = document.createElement("FORM");
+  element.appendChild(form);
+  // Nama User
+  var label = document.createElement("LABEL");
+  label.innerHTML = "Nama User";
+  form.appendChild(label);
+  var inputNamaUser = document.createElement("INPUT");
+  inputNamaUser.type = "text";
+  inputNamaUser.name = "NamaUser";
+  inputNamaUser.className = "form_login";
+  inputNamaUser.placeholder = "Nama User..";
+  form.appendChild(inputNamaUser);
+
+  // Nomor HP
+  var labelHP = document.createElement("LABEL");
+  labelHP.innerHTML = "Nomor Handphone";
+  form.appendChild(labelHP);
+  var nomorHP = document.createElement("INPUT");
+  nomorHP.type = "text";
+  nomorHP.name = "Nomor Handphone :";
+  nomorHP.className = "form_login";
+  nomorHP.placeholder = "Nomor Handphone..";
+  form.appendChild(nomorHP);
+
+  // User Name atau Email
+  var labelUsername = document.createElement("LABEL");
+  labelUsername.innerHTML = "Username Atau Email";
+  form.appendChild(labelUsername);
+  var user = document.createElement("INPUT");
+  user.type = "text";
+  user.name = "username";
+  user.className = "form_login";
+  user.placeholder = "Username atau Email..";
+  form.appendChild(user);
+
+  //password
+  var pass = document.createElement("LABEL");
+  pass.innerHTML = "Password";
+  form.appendChild(pass);
+  var pswd = document.createElement("INPUT");
+  pswd.type = "password";
+  pswd.name = "password";
+  pswd.className = "form_login";
+  pswd.placeholder = "Password";
+  form.appendChild(pswd);
+
+  //tombol
+  var tombol = document.createElement("INPUT");
+  tombol.type = "submit";
+  tombol.className = "tombol_login";
+  form.appendChild(tombol);
+}</script></body></html>

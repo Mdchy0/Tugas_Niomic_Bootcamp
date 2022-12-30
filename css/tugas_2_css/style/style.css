@@ -1,0 +1,36 @@
+/* Universal Selector */
+*{
+    color: white;
+    background-color: green;
+}
+
+/* Element Selector */
+img {
+    float: left;
+    width: 35px;
+    padding-right: 10px;
+}
+
+h1 {
+    text-transform: capitalize;
+}
+
+/* Class Selector */
+.p_pertama {
+    text-align: justify;
+}
+
+/* ID Selector */
+#p_kedua {
+    text-decoration: underline;
+}
+
+/* Group Selector */
+.p_ketiga, .p_keempat {
+    text-align: center;
+}
+
+/* Spesific Selector */
+p.p_kelima{
+    text-decoration: line-through;
+}

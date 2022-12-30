@@ -1,0 +1,27 @@
+body{
+    margin: 0;
+    padding: 0;
+
+}
+
+img{
+    width: 100%!important;
+    height: 100%!important;
+    background-size: cover;
+    position: absolute;
+    float: right;
+    z-index: 1;
+}
+
+div div{
+    width: 700px;
+    background-color: white;
+    font-size:13px;
+    font-weight: bold;
+    top: 10px;
+    right: 10px;
+    padding: 10px;
+    position: absolute;
+    text-align: right;
+    z-index: 2;
+}
